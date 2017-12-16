@@ -1,0 +1,46 @@
+.col-no-padding {
+  padding: 0; }
+
+.pagination {
+  display: flex;
+  justify-content: center; }
+
+body .navbar {
+  border-radius: 0; }
+body .post-me {
+  line-height: 25px; }
+body .form-post {
+  padding-top: 0; }
+body .content-right {
+  padding: 15px;
+  padding-top: 0; }
+  body .content-right .table-hover {
+    margin-bottom: 10px; }
+    body .content-right .table-hover tr {
+      border-bottom: 1px solid rgba(128, 128, 128, 0.2); }
+      body .content-right .table-hover tr td {
+        padding: 5px;
+        text-align: center; }
+        body .content-right .table-hover tr td button a {
+          color: white; }
+          body .content-right .table-hover tr td button a:hover {
+            text-decoration: none; }
+    body .content-right .table-hover tr:first-child {
+      background: rgba(128, 128, 128, 0.2); }
+  body .content-right .btn-add a {
+    color: white; }
+    body .content-right .btn-add a:hover {
+      text-decoration: none; }
+body .footer {
+  height: 30px;
+  background: #243240; }
+  body .footer p {
+    color: white;
+    line-height: 30px;
+    margin-bottom: 0; }
+
+/***********************************************Page***************************************************/
+body .content-right .form-horizontal {
+  max-width: 500px; }
+
+/*# sourceMappingURL=style.css.map */

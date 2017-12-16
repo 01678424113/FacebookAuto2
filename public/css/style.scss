@@ -1,0 +1,71 @@
+.col-no-padding {
+  padding: 0;
+}
+.pagination{
+  display: flex;
+  justify-content: center;
+}
+body {
+  .navbar{
+    border-radius: 0;
+  }
+  .post-me {
+    line-height: 25px;
+  }
+  .form-post{
+    padding-top: 0;
+  }
+  .content-right {
+    padding: 15px;
+    padding-top: 0;
+    .table-hover {
+      margin-bottom: 10px;
+      tr {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+        td {
+          padding: 5px;
+          text-align: center;
+          button {
+            a {
+              color: white;
+              &:hover {
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+      tr:first-child {
+        background: rgba(128, 128, 128, 0.2);
+      }
+    }
+    .btn-add {
+      a {
+        color: white;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .footer {
+    height: 30px;
+    background: rgb(36, 50, 64);
+    p {
+      color: white;
+      line-height: 30px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+/***********************************************Page***************************************************/
+body {
+  .content-right {
+    .title-content-right {
+    }
+    .form-horizontal {
+      max-width: 500px;
+    }
+  }
+}
